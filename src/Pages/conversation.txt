@@ -1,0 +1,7 @@
+The plan is gonna be simple:
+-create some files like login ,sign-up & main
+-edit them with seperate css or one and only alone lets talk about that later
+-routing them together as one app
+-adding storage like firebase 
+-connecting the storage with other parts of the app like login details
+-hosting the app let try to use git for simplicity
