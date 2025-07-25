@@ -1,18 +1,21 @@
 import React from 'react'
-
+import './log.css'
+document.querySelector("#log-useremail-det").style.opacity = 0;
 
 function Login() {
   return (
-    <div>
-      <div>
-        <h3>Login</h3>
-        <div>
+    <div className='body'>
+      <div className='Log-box'>
+        <h1 className='log-header'>Login</h1>
+        <div id='log-username-det'>
           <h2>Username</h2>
           <input />
+        </div>
+        <div id='log-useremail-det'>
           <h2>User-email</h2>
           <input />
         </div>
-        <div>
+        <div id='log-user-pass'>
           <h2>Password</h2>
           <input />
         </div>

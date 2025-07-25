@@ -1,0 +1,20 @@
+.Log-box{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.log-header{
+  font-size: 50px;
+  color: rgb(4, 189, 189);
+}
+
+#log-username-det>h2,#log-useremail-det>h2{
+  font-size: 30px;
+  color: blue;
+}
